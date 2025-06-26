@@ -1,9 +1,14 @@
 @import "tailwindcss";
 
 :root {
-  --rosso-scuro: #780000;
-  --rosso: #c1121f;
-  --panna: #fdf0d5;
-  --blu-scuro: #003049;
-  --blu-chiaro: #669bbc;
+  --rosso-scuro: #780000; /* button di eliminazione o azioni comunque irreversebili */
+  --rosso: #c1121f; /* Titoli o elementi primari */
+  --panna: #fdf0d5; /* Sfondo */
+  --blu-scuro: #003049; /* Testi principali in header */
+  --blu-chiaro: #669bbc; /* Stati secondari, hover e bordi */
+}
+
+body {
+    background-color: var(--panna);
+    color: var(--blu-scuro);
 }
