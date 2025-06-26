@@ -1,4 +1,12 @@
 
-<div class="my-40">
-    <h2 class="text-3xl text-center">Benvenuto su Todo!</h2>
-</div>
+<h2 class="text-3xl my-10 text-center">Benvenuto su Todo!</h2>
+
+<section class="m-20 p-10 bg-todo h-50">
+    <ul>
+    @for (todo of todos; track $index) {
+        <li>
+            <input type="checkbox" name="todo" id="" class="mr-2">{{todo.action}}
+        </li>    
+    }
+    </ul>
+</section>

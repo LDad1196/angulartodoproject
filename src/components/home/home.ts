@@ -7,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './home.css'
 })
 export class Home {
-
+  todos = [
+    {id: 1, action: 'To do a new list!', completed: false}
+  ]
 }
